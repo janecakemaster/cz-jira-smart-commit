@@ -9,15 +9,20 @@ A commitizen adapter for [Jira smart commits](https://confluence.atlassian.com/d
 Install this adapter
 
 ```
-npm install cz-jira-smart-commit
+npm install cz-jira-smart-commit-with-message
 ```
 
 Reference it in your `.cz.json` of your project
 
 ```json
 {
-  "path": "node_modules/cz-jira-smart-commit/"
+  "path": "node_modules/cz-jira-smart-commit-with-message/"
 }
+```
+
+or use commitizen to init
+```
+commitizen init cz-jira-smart-commit-with-message
 ```
 
 
