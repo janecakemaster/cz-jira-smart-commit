@@ -2,8 +2,6 @@
 
 A commitizen adapter for [Jira smart commits](https://confluence.atlassian.com/display/FISHEYE/Using+smart+commits)
 
-![Screenshot](other/screenshot.png)
-
 ## Usage
 
 ### Add this adapter
@@ -25,11 +23,12 @@ Reference it in your `.cz.json` of your project
 
 ### Day to day work
 
-Instead of `git commit -m 'Your message'`, you type: `git gz` with this adapter and it prompts you for:
+Instead of `git commit -m 'Your message'`, you type: `git cz` with this adapter and it prompts you for:
 
+- commit message
 - Jira Issue Key(s)
-- Time Spent
 - Workflow command
+- Time Spent
 - Comment
 
 And generates your commit based on that.
